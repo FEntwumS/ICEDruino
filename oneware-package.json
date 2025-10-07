@@ -1,0 +1,40 @@
+{
+  "category": "FPGA Boards",
+  "type": "Hardware",
+  "name": "ICEDruino Support",
+  "id": "OneWare.ICEDruino",
+  "description": "ICEDruino Hardware extension for OneWare",
+  "license": "MIT",
+  "iconUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDruino/main/Icon.png",
+  "tabs": [
+    {
+      "title": "Readme",
+      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDruino/main/Extension.md"
+    },
+    {
+      "title": "License",
+      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDruino/main/License.md"
+    },
+    {
+      "title": "Release",
+      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDruino/main/Release.md"
+    }
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/FEntwumS/ICEDruino"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.1",
+      "targets": [
+        {
+          "target": "all",
+          "url": "https://github.com/FEntwumS/ICEDruino/releases/download/0.1/OneWare.GateMate-0.1-all.zip"
+        }
+      ]
+    }
+  ]
+}

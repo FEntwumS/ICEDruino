@@ -1,0 +1,530 @@
+{
+  "width": 480,
+  "height": 400,
+  "elements": [
+    {
+      "type": "rect",
+      "x": 40,
+      "y": 40,
+      "width": 400,
+      "height": 320,
+      "color": "#0A6945",
+      "cornerRadius": "20"
+    },
+
+    {
+      "type": "ellipse",
+      "x": 54,
+      "y": 54,
+      "width": 12,
+      "height": 12,
+      "color": "#333333"
+    },
+    {
+      "type": "ellipse",
+      "x": 414,
+      "y": 54,
+      "width": 12,
+      "height": 12,
+      "color": "#333333"
+    },
+    {
+      "type": "ellipse",
+      "x": 54,
+      "y": 334,
+      "width": 12,
+      "height": 12,
+      "color": "#333333"
+    },
+    {
+      "type": "ellipse",
+      "x": 414,
+      "y": 334,
+      "width": 12,
+      "height": 12,
+      "color": "#333333"
+    },
+    
+    {
+      "type": "rect",
+      "x": 240,
+      "y": 66,
+      "width": 36,
+      "height": 16,
+      "color": "#202020"
+    },
+    {
+      "type": "rect",
+      "x": 252,
+      "y": 71,
+      "width": 12,
+      "height": 6,
+      "color": "#404040"
+    },
+    {
+      "type": "rect",
+      "x": 252,
+      "y": 71,
+      "width": 6,
+      "height": 6,
+      "color": "#C09000"     
+    },
+    {
+      "type": "text",
+      "x": 240,
+      "y": 51,
+      "text": "ON/OFF",
+      "font_weight": "bold",
+      "font_size": 15
+    },
+
+    {
+      "type": "rect",
+      "x": 366,
+      "y": 40,
+      "width": 44,
+      "height": 40,
+      "color": "#50A0C0"
+    },
+    {
+      "type": "ellipse",
+      "x": 370,
+      "y": 53,
+      "width": 14,
+      "height": 14,
+      "color": "#888888"
+    },
+    {
+      "type": "ellipse",
+      "x": 390,
+      "y": 53,
+      "width": 14,
+      "height": 14,
+      "color": "#888888"
+    },
+
+    {
+      "type": "rect",
+      "x": 168,
+      "y": 192,
+      "width": 80,
+      "height": 80,
+      "color": "#202020",
+      "text": "ICE40"
+    },
+    {
+      "type": "rect",
+      "x": 168,
+      "y": 125,
+      "width": 72,
+      "height": 38,
+      "color": "#202020"
+    },
+    {
+      "type": "rect",
+      "x": 344,
+      "y": 196,
+      "width": 40,
+      "height": 40,
+      "color": "#202020"
+    },
+
+
+
+
+    {
+      "type": "rect",
+      "x": 58,
+      "y": 110,
+      "width": 18,
+      "height": 18,
+      "color": "#202020"
+    },
+    {
+      "type": "pin",
+      "x": 62,
+      "y": 114,
+      "color": "#C09000",
+      "bind": "122",
+      "label": "SW1"
+      
+    },
+    {
+      "type": "rect",
+      "x": 58,
+      "y": 150,
+      "width": 18,
+      "height": 18,
+      "color": "#202020"
+    },
+    {
+      "type": "pin",
+      "x": 62,
+      "y": 154,
+      "color": "#C09000",
+      "bind": "124",
+      "label": "SW2"
+      
+    },
+    {
+      "type": "rect",
+      "x": 58,
+      "y": 190,
+      "width": 18,
+      "height": 18,
+      "color": "#202020"
+    },
+    {
+      "type": "pin",
+      "x": 62,
+      "y": 194,
+      "color": "#C09000",
+      "bind": "125",
+      "label": "SW3"
+      
+    },
+    {
+      "type": "rect",
+      "x": 58,
+      "y": 230,
+      "width": 18,
+      "height": 18,
+      "color": "#202020"
+    },
+    {
+      "type": "pin",
+      "x": 62,
+      "y": 234,
+      "color": "#C09000",
+      "bind": "128",
+      "label": "SW4"
+      
+    },
+    {
+      "type": "rect",
+      "x": 58,
+      "y": 270,
+      "width": 18,
+      "height": 18,
+      "color": "#202020"
+    },
+    {
+      "type": "pin",
+      "x": 62,
+      "y": 274,
+      "color": "#C09000",
+      "bind": "129",
+      "label": "SW5"
+      
+    },
+
+    {
+      "type": "rect",
+      "x": 108,
+      "y": 214,
+      "width": 36,
+      "height": 16,
+      "color": "#202020"
+    },
+    {
+      "type": "rect",
+      "x": 120,
+      "y": 219,
+      "width": 12,
+      "height": 6,
+      "color": "#404040"
+    },
+    {
+      "type": "pin",
+      "x": 120,
+      "y": 219,
+      "rotation": 90,
+      "width": 6,
+      "height": 6,
+      "color": "#C09000",
+      "bind": "130",
+      "label": "SW6"
+      
+    },
+    {
+      "type": "rect",
+      "x": 108,
+      "y": 240,
+      "width": 36,
+      "height": 16,
+      "color": "#202020"
+    },
+    {
+      "type": "rect",
+      "x": 120,
+      "y": 245,
+      "width": 12,
+      "height": 6,
+      "color": "#404040"
+    },
+    {
+      "type": "pin",
+      "x": 120,
+      "y": 245,
+      "rotation": 90,
+      "flipLabel": true,
+      "width": 6,
+      "height": 6,
+      "color": "#C09000",
+      "bind": "134",
+      "label": "SW7"
+      
+    },
+
+    {
+      "type": "pinArray",
+      "x": 128,
+      "y": 110,
+      "horizontal": false,
+      "flipLabel": false,
+      "color": "red",
+      "pinHeight": 9,
+      "pins": [
+        {
+          "label": "D1",
+          "bind": "112"
+        },
+        {
+          "label": "D2",
+          "bind": "113"
+        },
+        {
+          "label": "D3",
+          "bind": "114"
+        },
+        {
+          "label": "D4",
+          "bind": "115"
+        },
+        {
+          "label": "D5",
+          "bind": "116"
+        },
+        {
+          "label": "D6",
+          "bind": "117"
+        },
+        {
+          "label": "D7",
+          "bind": "118"
+        },
+        {
+          "label": "D8",
+          "bind": "119"
+        }
+      ]
+    },
+    
+    {
+      "type": "pinArray",
+      "x": 156,
+      "y": 96,
+      "horizontal": true,
+      "flipLabel": true,
+      "color": "#303030",
+      "pins": [
+        {
+          "label": "A5"
+        },
+        {
+          "label": "A4"
+        },
+        {
+          "label": "A3"
+        },
+        {
+          "label": "A2"
+        },
+        {
+          "label": "A1"
+        },
+        {
+          "label": "A0"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 228,
+      "y": 96,
+      "horizontal": true,
+      "flipLabel": true,
+      "color": "#303030",
+      "pins": [
+        {},
+        {
+          "label": "GND"
+        },
+        {
+          "label": "GND"
+        },
+        {
+          "label": "5V"
+        },
+        {
+          "label": "3V3"
+        },
+        {
+          "label": "RESET"
+        },
+        {
+          "label": "5V"
+        },
+        {}
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 156,
+      "y": 288,
+      "horizontal": true,
+      "flipLabel": false,
+      "color": "#303030",
+      "pins": [
+        {
+          "label": "RX",
+          "bind": "37"
+        },
+        {
+          "label": "TX",
+          "bind": "38"
+        },
+        {
+          "label": "D2",
+          "bind": "41"
+        },
+        {
+          "label": "D3",
+          "bind": "42"
+        },
+        {
+          "label": "D4",
+          "bind": "43"
+        },
+        {
+          "label": "D5",
+          "bind": "44"
+        },
+        {
+          "label": "D6",
+          "bind": "45"
+        },
+        {
+          "label": "D7",
+          "bind": "47"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 244,
+      "y": 288,
+      "horizontal": true,
+      "flipLabel": false,
+      "color": "#303030",
+      "pins": [
+        {
+          "label": "D8",
+          "bind": "32"
+        },
+        {
+          "label": "D9",
+          "bind": "33"
+        },
+        {
+          "label": "SS",
+          "bind": "34"
+        },
+        {
+          "label": "MOSI",
+          "bind": "29"
+        },
+        {
+          "label": "MISO",
+          "bind": "26"
+        },
+        {
+          "label": "SCK",
+          "bind": "28"
+        },
+        {
+          "label": "GND"
+        },
+        {
+          "label": "AREF"
+        },
+        {
+          "label": "SDA",
+          "bind": "25"
+        },
+        {
+          "label": "SCL",
+          "bind": "24"
+        }
+      ]
+    },
+
+    {
+      "type": "pmod",
+      "x": 118,
+      "y": 340,
+      "rotation": 180,
+      "bind": "PMOD_1",
+      "connectorStyle": "compact"
+    },
+    {
+      "type": "text",
+      "x": 118,
+      "y": 325,
+      "text": "PMOD 1",
+      "font_weight": "bold",
+      "font_size": 15
+    },
+    {
+      "type": "pmod",
+      "x": 205,
+      "y": 340,
+      "rotation": 180,
+      "bind": "PMOD_2",
+      "connectorStyle": "compact"
+    },
+    {
+      "type": "text",
+      "x": 205,
+      "y": 325,
+      "text": "PMOD 2",
+      "font_weight": "bold",
+      "font_size": 15
+    },
+    {
+      "type": "pmod",
+      "x": 292,
+      "y": 340,
+      "rotation": 180,
+      "bind": "PMOD_3",
+      "connectorStyle": "compact"
+    },
+    {
+      "type": "text",
+      "x": 292,
+      "y": 325,
+      "text": "PMOD 3",
+      "font_weight": "bold",
+      "font_size": 15
+    },
+    {
+      "type": "usb",
+      "x": 430,
+      "y": 234,
+      "rotation": 90,
+      "rxBind": "60",
+      "txBind": "62"
+    }
+
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "properties": {
+    "yosysToolchainYosysSynthTool": "synth_ice40",
+    "yosysToolchainYosysFlags": "",
+    "yosysToolchainNextPnrTool": "nextpnr-ice40",
+    "yosysToolchainNextPnrFlags": "--package sg48 --up5k",
+    "yosysToolchainPackTool": "icepack",
+    "yosysToolchainPackFlags": "",
+    "openFpgaLoaderBoard": "ice40_generic",
+    "openFpgaLoaderShortTermFlags": "",
+    "openFpgaLoaderLongTermFlags": ""
+  },
+  "pins": [
+    {
+      "description": "D1",
+      "name": "112"
+    },
+    {
+      "description": "D2",
+      "name": "113"
+    },
+    {
+      "description": "D3",
+      "name": "114"
+    },
+    {
+      "description": "D4",
+      "name": "115"
+    },
+    {
+      "description": "D5",
+      "name": "116"
+    },
+    {
+      "description": "D6",
+      "name": "117"
+    },
+    {
+      "description": "D7",
+      "name": "118"
+    },
+    {
+      "description": "D8",
+      "name": "119"
+    },
+    
+    {
+      "description": "SW1",
+      "name": "122"
+    },
+    {
+      "description": "SW2",
+      "name": "124"
+    },
+    {
+      "description": "SW3",
+      "name": "125"
+    },
+    {
+      "description": "SW4",
+      "name": "128"
+    },
+    {
+      "description": "SW5",
+      "name": "129"
+    },
+
+    {
+      "description": "SW6",
+      "name": "130"
+    },
+    {
+      "description": "SW7",
+      "name": "134"
+    },
+    
+    {
+      "description": "Clock 12MHz",
+      "name": "21"
+    },
+    {
+      "description": "Clock 50MHz",
+      "name": "52"
+    },
+
+    {
+      "description": "RXD",
+      "name": "60"
+    },
+    {
+      "description": "TXD",
+      "name": "62"
+    },
+
+    {
+      "description": "pmod1_1",
+      "name": "136"
+    },
+    {
+      "description": "pmod1_7",
+      "name": "137"
+    },
+    {
+      "description": "pmod1_8",
+      "name": "138"
+    },
+    {
+      "description": "pmod1_9",
+      "name": "139"
+    },
+    {
+      "description": "pmod1_10",
+      "name": "141"
+    },
+    {
+      "description": "pmod1_4",
+      "name": "142"
+    },
+    {
+      "description": "pmod1_3",
+      "name": "143"
+    },
+    {
+      "description": "pmod1_2",
+      "name": "144"
+    },
+
+    {
+      "description": "pmod2_7",
+      "name": "11"
+    },
+    {
+      "description": "pmod2_8",
+      "name": "12"
+    },
+    {
+      "description": "pmod2_9",
+      "name": "15"
+    },
+    {
+      "description": "pmod2_10",
+      "name": "16"
+    },
+    {
+      "description": "pmod2_4",
+      "name": "17"
+    },
+    {
+      "description": "pmod2_3",
+      "name": "18"
+    },
+    {
+      "description": "pmod2_2",
+      "name": "19"
+    },
+    {
+      "description": "pmod2_1",
+      "name": "20"
+    },
+
+    {
+      "description": "pmod3_7",
+      "name": "1"
+    },
+    {
+      "description": "pmod3_1",
+      "name": "2"
+    },
+    {
+      "description": "pmod3_8",
+      "name": "3"
+    },
+    {
+      "description": "pmod3_2",
+      "name": "4"
+    },
+    {
+      "description": "pmod3_9",
+      "name": "7"
+    },
+    {
+      "description": "pmod3_3",
+      "name": "8"
+    },
+    {
+      "description": "pmod3_10",
+      "name": "9"
+    },
+    {
+      "description": "pmod3_4",
+      "name": "10"
+    },
+  
+    {
+      "description": "INO_SCL",
+      "name": "24"
+    },
+    {
+      "description": "INO_SDA",
+      "name": "25"
+    },
+    {
+      "description": "INO_SCK",
+      "name": "28"
+    },
+    {
+      "description": "INO_MISO",
+      "name": "26"
+    },
+    {
+      "description": "INO_MOSI",
+      "name": "29"
+    },
+    {
+      "description": "INO_SS",
+      "name": "34"
+    },
+    {
+      "description": "INO_D9",
+      "name": "33"
+    },
+    {
+      "description": "INO_D8",
+      "name": "32"
+    },
+
+    {
+      "description": "INO_D7",
+      "name": "47"
+    },
+    {
+      "description": "INO_D6",
+      "name": "45"
+    },
+    {
+      "description": "INO_D5",
+      "name": "44"
+    },
+    {
+      "description": "INO_D4",
+      "name": "43"
+    },
+    {
+      "description": "INO_D3",
+      "name": "42"
+    },
+    {
+      "description": "INO_D2",
+      "name": "41"
+    },
+    {
+      "description": "INO_TX",
+      "name": "38"
+    },
+    {
+      "description": "INO_RX",
+      "name": "37"
+    }
+
+
+  ],
+  "interfaces": [
+    {
+      "name": "PMOD_1",
+      "connector": "PMOD",
+      "pins": [
+      {
+          "name": "1",
+          "pin": "136"
+          },
+          {
+          "name": "5",
+          "pin": "137"
+          },
+          {
+          "name": "6",
+          "pin": "138"
+          },
+          {
+          "name": "7",
+          "pin": "139"
+          },
+          {
+          "name": "8",
+          "pin": "141"
+          },
+          {
+          "name": "4",
+          "pin": "142"
+          },
+          {
+          "name": "3",
+          "pin": "143"
+          },
+          {
+          "name": "2",
+          "pin": "144"
+          }
+      ]
+    },
+    {
+    "name": "PMOD_2",
+    "connector": "PMOD",
+    "pins": [
+        {
+        "name": "5",
+        "pin": "11"
+        },
+        {
+        "name": "6",
+        "pin": "12"
+        },
+        {
+        "name": "7",
+        "pin": "15"
+        },
+        {
+        "name": "8",
+        "pin": "16"
+        },
+        {
+        "name": "4",
+        "pin": "17"
+        },
+        {
+        "name": "3",
+        "pin": "18"
+        },
+        {
+        "name": "2",
+        "pin": "19"
+        },
+        {
+        "name": "1",
+        "pin": "20"
+        }
+      
+    ]
+  },
+  {
+    "name": "PMOD_3",
+    "connector": "PMOD",
+    "pins": [
+        {
+        "name": "5",
+        "pin": "1"
+        },
+        {
+        "name": "1",
+        "pin": "2"
+        },
+        {
+        "name": "6",
+        "pin": "3"
+        },
+        {
+        "name": "2",
+        "pin": "4"
+        },
+        {
+        "name": "7",
+        "pin": "7"
+        },
+        {
+        "name": "3",
+        "pin": "8"
+        },
+        {
+        "name": "8",
+        "pin": "9"
+        },
+        {
+        "name": "4",
+        "pin": "10"
+        }      
+    ]
+  }
+  ]
+}
