@@ -113,6 +113,24 @@
       "text": "ICE40"
     },
     {
+      "type": "pin",
+      "x": 170,
+      "y": 194,
+      "flipLabel": true,
+      "color": "#404040",
+      "bind": "21",
+      "label": "CLK12"
+    },
+    {
+      "type": "pin",
+      "x": 170,
+      "y": 206,
+      "flipLabel": true,
+      "color": "#404040",
+      "bind": "52",
+      "label": "CLK50"
+    },
+    {
       "type": "rect",
       "x": 168,
       "y": 125,

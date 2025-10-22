@@ -5,25 +5,25 @@
   "id": "OneWare.ICEDuino",
   "description": "ICEDuino Hardware extension for OneWare",
   "license": "MIT",
-  "iconUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDruino/main/Icon.png",
+  "iconUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDuino/main/Icon.png",
   "tabs": [
     {
       "title": "Readme",
-      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDruino/main/Extension.md"
+      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDuino/main/Extension.md"
     },
     {
       "title": "License",
-      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDruino/main/License.md"
+      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDuino/main/License.md"
     },
     {
       "title": "Release",
-      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDruino/main/Release.md"
+      "contentUrl": "https://raw.githubusercontent.com/FEntwumS/ICEDuino/main/Release.md"
     }
   ],
   "links": [
     {
       "name": "Github",
-      "url": "https://github.com/FEntwumS/ICEDruino"
+      "url": "https://github.com/FEntwumS/ICEDuino"
     }
   ],
   "versions": [
@@ -32,7 +32,7 @@
       "targets": [
         {
           "target": "all",
-          "url": "https://github.com/FEntwumS/ICEDruino/releases/download/0.1/ICEDruino-0.1-all.zip"
+          "url": "https://github.com/FEntwumS/ICEDuino/releases/download/0.1/ICEDuino-0.1-all.zip"
         }
       ]
     }

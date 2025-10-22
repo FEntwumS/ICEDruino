@@ -3,7 +3,7 @@
     "yosysToolchainYosysSynthTool": "synth_ice40",
     "yosysToolchainYosysFlags": "",
     "yosysToolchainNextPnrTool": "nextpnr-ice40",
-    "yosysToolchainNextPnrFlags": "--package sg48 --up5k",
+    "yosysToolchainNextPnrFlags": "--package tq144:4k --hx8k",
     "yosysToolchainPackTool": "icepack",
     "yosysToolchainPackFlags": "",
     "openFpgaLoaderBoard": "ice40_generic",
