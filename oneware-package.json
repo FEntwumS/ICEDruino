@@ -35,6 +35,15 @@
           "url": "https://github.com/FEntwumS/ICEDuino/releases/download/0.1/ICEDuino-0.1-all.zip"
         }
       ]
+    },
+    {
+      "version": "0.2",
+      "targets": [
+        {
+          "target": "all",
+          "url": "https://github.com/FEntwumS/ICEDuino/releases/download/0.2/ICEDuino-0.2-all.zip"
+        }
+      ]
     }
   ]
 }
