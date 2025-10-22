@@ -1,2 +1,5 @@
-# Version 0.1
-Add ICEDuino Board
+## Version 0.2
+Fixed spelling from ICEDuino
+
+## Version 0.1
+Add ICEDruino Board
